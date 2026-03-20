@@ -575,6 +575,24 @@ window.Quarto = {
   <li><a href="#非参数检验mann-whitney-u-检验" id="toc-非参数检验mann-whitney-u-检验" class="nav-link" data-scroll-target="#非参数检验mann-whitney-u-检验"><span class="header-section-number">29.5.2</span> 非参数检验（Mann-Whitney U 检验）</a></li>
   <li><a href="#转化率比例的-z-检验" id="toc-转化率比例的-z-检验" class="nav-link" data-scroll-target="#转化率比例的-z-检验"><span class="header-section-number">29.5.3</span> 转化率/比例的 Z 检验</a></li>
   <li><a href="#显著性水平p-值" id="toc-显著性水平p-值" class="nav-link" data-scroll-target="#显著性水平p-值"><span class="header-section-number">29.5.4</span> 显著性水平、P 值</a></li>
+  <li><a href="#置信区间" id="toc-置信区间" class="nav-link" data-scroll-target="#置信区间"><span class="header-section-number">29.5.5</span> 置信区间</a></li>
+  </ul></li>
+  <li><a href="#样本量与实验效能" id="toc-样本量与实验效能" class="nav-link" data-scroll-target="#样本量与实验效能"><span class="header-section-number">29.6</span> 样本量与实验效能</a></li>
+  <li><a href="#python-实操咖啡店促销方案" id="toc-python-实操咖啡店促销方案" class="nav-link" data-scroll-target="#python-实操咖啡店促销方案"><span class="header-section-number">29.7</span> Python 实操：咖啡店促销方案</a>
+  <ul class="collapse">
+  <li><a href="#数据背景与问题回顾" id="toc-数据背景与问题回顾" class="nav-link" data-scroll-target="#数据背景与问题回顾"><span class="header-section-number">29.7.1</span> 数据背景与问题回顾</a></li>
+  <li><a href="#数据模拟与分组" id="toc-数据模拟与分组" class="nav-link" data-scroll-target="#数据模拟与分组"><span class="header-section-number">29.7.2</span> 数据模拟与分组</a></li>
+  <li><a href="#数据可视化与描述统计" id="toc-数据可视化与描述统计" class="nav-link" data-scroll-target="#数据可视化与描述统计"><span class="header-section-number">29.7.3</span> 数据可视化与描述统计</a></li>
+  <li><a href="#统计检验" id="toc-统计检验" class="nav-link" data-scroll-target="#统计检验"><span class="header-section-number">29.7.4</span> 统计检验</a></li>
+  <li><a href="#功效分析" id="toc-功效分析" class="nav-link" data-scroll-target="#功效分析"><span class="header-section-number">29.7.5</span> 功效分析</a></li>
+  <li><a href="#结果解读与业务建议" id="toc-结果解读与业务建议" class="nav-link" data-scroll-target="#结果解读与业务建议"><span class="header-section-number">29.7.6</span> 结果解读与业务建议</a></li>
+  </ul></li>
+  <li><a href="#非随机分组实验情境影响与对策" id="toc-非随机分组实验情境影响与对策" class="nav-link" data-scroll-target="#非随机分组实验情境影响与对策"><span class="header-section-number">29.8</span> 非随机分组实验：情境、影响与对策</a>
+  <ul class="collapse">
+  <li><a href="#典型情境" id="toc-典型情境" class="nav-link" data-scroll-target="#典型情境"><span class="header-section-number">29.8.1</span> 典型情境</a></li>
+  <li><a href="#影响分析" id="toc-影响分析" class="nav-link" data-scroll-target="#影响分析"><span class="header-section-number">29.8.2</span> 影响分析</a></li>
+  <li><a href="#应对与改进策略" id="toc-应对与改进策略" class="nav-link" data-scroll-target="#应对与改进策略"><span class="header-section-number">29.8.3</span> 应对与改进策略</a></li>
+  <li><a href="#小结" id="toc-小结" class="nav-link" data-scroll-target="#小结"><span class="header-section-number">29.8.4</span> 小结</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -792,7 +810,7 @@ p = \frac{n_A p_A + n_B p_B}{n_A + n_B}
 </ul>
 </section>
 <section id="显著性水平p-值" class="level3" data-number="29.5.4">
-<h3 data-number="29.5.4" class="anchored"><span class="header-section-number">29.5.4</span> 显著性水平、P 值</h3>
+<h3 data-number="29.5.4" class="anchored" data-anchor-id="显著性水平p-值"><span class="header-section-number">29.5.4</span> 显著性水平、P 值</h3>
 <ul>
 <li><p><strong>显著性水平（Significance Level, <span class="math inline">\(\alpha\)</span>）</strong></p>
 <ul>
@@ -820,6 +838,9 @@ p = \frac{n_A p_A + n_B p_B}{n_A + n_B}
 <blockquote class="blockquote">
 <p>Source: Francesco Casalegno, 2021, Blog. A/B Testing – A complete guide to statistical testing. <a href="https://towardsdatascience.com/a-b-testing-a-complete-guide-to-statistical-testing-e3f1db140499/">Read</a>, <a href="https://github.com/FrancescoCasalegno/AB-Testing">github-Python codes</a></p>
 </blockquote>
+</div>
+</div>
+</section>
 <section id="置信区间" class="level3" data-number="29.5.5">
 <h3 data-number="29.5.5" class="anchored" data-anchor-id="置信区间"><span class="header-section-number">29.5.5</span> 置信区间</h3>
 <p><strong>点估计与区间估计</strong></p>
@@ -835,6 +856,7 @@ p = \frac{n_A p_A + n_B p_B}{n_A + n_B}
 <p>我们平时所说的「95% 的覆盖率」，指的便是这种多次实验的总体结果。</p>
 <p><strong>单次置信区间的含义</strong></p>
 <p>在实际分析中，我们往往只进行<strong>一次实验</strong>，也只能计算出<strong>一个</strong>置信区间（如 <span class="math inline">\([2\%, 5\%]\)</span>）。对于这一次计算出的区间，<strong>真实参数要么在区间内，要么不在区间内</strong>。我们<strong>不能</strong>说“参数有 95% 的概率落在本次区间内” (这是一种非常普遍的错误理解)。我们只能说，<span class="math inline">\([2\%, 5\%]\)</span> 有「95% 的可靠性」或「95% 的覆盖率」。</p>
+</section>
 </section>
 <section id="样本量与实验效能" class="level2" data-number="29.6">
 <h2 data-number="29.6" class="anchored" data-anchor-id="样本量与实验效能"><span class="header-section-number">29.6</span> 样本量与实验效能</h2>
@@ -1110,10 +1132,6 @@ t 检验 P 值：0.0000</code></pre>
 </ul>
 
 
-</section>
-</section>
-</div>
-</div>
 </section>
 </section>
 
